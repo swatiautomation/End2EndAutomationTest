@@ -1,0 +1,125 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Customer place an order by purchasing an item from search",
+        "description": "",
+        "id": "automated-end-2-end-tests;customer-place-an-order-by-purchasing-an-item-from-search",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 15311620812,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on Home Page",
+            "match": {
+              "location": "Steps.home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3468454713,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "he search for \"dress\" any",
+            "match": {
+              "arguments": [
+                {
+                  "val": "dress",
+                  "offset": 15
+                }
+              ],
+              "location": "Steps.he_search_for_dress(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6164309984,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "choose to buy the first item",
+            "match": {
+              "location": "Steps.choose_to_buy_the_first_item()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2598612840,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "moves to checkout from mini cart",
+            "match": {
+              "location": "Steps.moves_to_checkout_from_mini_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3853681468,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "enter personal details on checkout page",
+            "match": {
+              "location": "Steps.enter_personal_details_on_checkout_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2281440186,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "select Term and condition checkbox",
+            "match": {
+              "location": "Steps.selectTermsandCondition()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1735245311,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "place the order",
+            "match": {
+              "location": "Steps.select_payment_method_as_check_payment()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2731824623,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "close the browser",
+            "match": {
+              "location": "Steps.place_the_order()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Automated End 2 End Tests",
+    "description": "",
+    "id": "automated-end-2-end-tests",
+    "keyword": "Feature",
+    "uri": "C:/Users/hp/eclipse-workspace/CucumberPOM/src/main/java/com/qa/feature/End2End_Tests.feature",
+    "tags": []
+  }
+]
